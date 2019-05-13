@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
-
+import './assets/css/ez-vue-uploader.css';
 Vue.config.productionTip = false
 
 new Vue({

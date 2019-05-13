@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div style="width : 30%">
+      <ez-vue-uploader min-height-upload-span="100px" :max-files="5" :with-button-upload="false"></ez-vue-uploader>
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import ezVueUploader from './components/ez-vue-uploader';
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    ezVueUploader
   }
 }
 </script>
